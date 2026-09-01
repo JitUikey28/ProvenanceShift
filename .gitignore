@@ -32,16 +32,13 @@ Thumbs.db
 # Project-specific
 results/raw/*/
 results/processed/*/
-results/figures/*/
-results/tables/*/
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !results/raw/.gitkeep
 !results/processed/.gitkeep
-!results/figures/.gitkeep
-!results/tables/.gitkeep
+
 
 # Model cache (do not commit downloaded models)
 models_cache/
