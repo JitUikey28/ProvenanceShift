@@ -1,0 +1,21 @@
+# =============================================================================
+# Persona Representation Confound Audit Configuration — ProvenanceShift
+# =============================================================================
+# Phase 5.5: Confound audit, length/format/lexical/neutral controls, and stability scaling.
+# =============================================================================
+
+# Target layer selected in Phase 5
+target_layer: 2
+
+# Number of bootstrap resamples for expanded training stability
+n_stability_resamples: 500
+
+# Number of bootstrap resamples for control delta confidence intervals
+n_delta_bootstrap: 1000
+confidence_level: 0.95
+
+# Number of random directions for comparison (D_random)
+n_random_directions: 100
+
+# Random seed for reproducibility
+seed: 42

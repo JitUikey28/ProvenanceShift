@@ -1,0 +1,47 @@
+# =============================================================================
+# Persona Representation Analysis Configuration — ProvenanceShift
+# =============================================================================
+#
+# This file specifies parameters for extracting activations and analyzing
+# persona representations (Phase 3 + Phase 4).
+# Every field here is recorded alongside results for full reproducibility.
+# =============================================================================
+
+# --- Dataset ---
+dataset_path: "data/prompts/persona_pilot.json"
+
+# --- Extraction configuration ---
+# Layer selection:
+# - "all": extract every layer from 0 (embedding) to L (final transformer block)
+# - "spaced": extract evenly spaced layers (e.g. step size 4)
+# - list of ints: specific layer indices (e.g. [0, 4, 8, 12, 16, 20, 24, 28, 32])
+layers: "all"
+
+# Token position / pooling method:
+# - "last_token": the final input token before generation (excluding padding)
+# - "mean_pool": average across all non-padding input tokens
+pooling: "last_token"
+
+# Batch size for extraction (conservative for RTX 3050 4GB VRAM)
+batch_size: 4
+
+# Dtype for stored activation vectors: "float32" or "float16"
+storage_dtype: "float32"
+
+# --- Representation & Analysis ---
+# Direction construction method:
+# - "mean_difference": normalized difference of class means (mu_assistant - mu_alternative)
+direction_method: "mean_difference"
+
+# Classifier baseline: "logistic_regression"
+classifier: "logistic_regression"
+classifier_c: 1.0
+
+# --- Statistical validation ---
+bootstrap_samples: 1000
+confidence_level: 0.95
+seed: 42
+
+# --- Controls ---
+run_random_direction_control: true
+run_label_shuffle_control: true

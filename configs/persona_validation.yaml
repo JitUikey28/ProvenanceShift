@@ -1,0 +1,28 @@
+# =============================================================================
+# Persona Representation Validation Configuration — ProvenanceShift
+# =============================================================================
+#
+# Parameters for rigorous validation of candidate persona directions (Phase 5).
+# =============================================================================
+
+# Layer selection criterion evaluated on validation data only:
+# Options: "val_roc_auc", "val_cohens_d", "val_accuracy", "val_balanced_accuracy"
+layer_selection_criterion: "val_roc_auc"
+
+# --- Statistical Controls ---
+# Number of random unit directions to sample for empirical null distribution
+n_random_directions: 100
+
+# Number of resamples for direction stability (cosine similarity across resamples)
+n_stability_resamples: 100
+
+# Bootstrap resamples for test confidence intervals
+bootstrap_samples: 1000
+confidence_level: 0.95
+
+# --- PCA Visualization (fit on train only) ---
+enable_pca: true
+pca_components: 2
+
+# Random seed
+seed: 42

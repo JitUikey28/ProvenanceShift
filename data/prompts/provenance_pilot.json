@@ -1,0 +1,361 @@
+[
+  {
+    "task_id": "task_01_water_cycle",
+    "base_task": "Explain how the hydrological cycle transports fresh water globally.",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain how the hydrological cycle transports fresh water globally."}
+    ],
+    "metadata": {"topic": "earth_science", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_01_water_cycle",
+    "base_task": "Explain how the hydrological cycle transports fresh water globally.",
+    "condition": "provenance_manipulation",
+    "provenance": "maritime_clipper_logbook",
+    "messages": [
+      {"role": "system", "content": "Context Source: Transcribed 19th-century clipper ship ocean meteorological logbook. You are recording navigational and weather dynamics."},
+      {"role": "user", "content": "Explain how the hydrological cycle transports fresh water globally."}
+    ],
+    "metadata": {"topic": "earth_science", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_01_water_cycle",
+    "base_task": "Explain how the hydrological cycle transports fresh water globally.",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: Standard planetary science reference manual. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain how the hydrological cycle transports fresh water globally."}
+    ],
+    "metadata": {"topic": "earth_science", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_01_water_cycle",
+    "base_task": "Explain how the hydrological cycle transports fresh water globally.",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-01)"},
+      {"role": "user", "content": "Explain how the hydrological cycle transports fresh water globally."}
+    ],
+    "metadata": {"topic": "earth_science", "condition_type": "neutral_control"}
+  },
+
+  {
+    "task_id": "task_02_newtonian_laws",
+    "base_task": "State and explain Newton's three laws of motion.",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "State and explain Newton's three laws of motion."}
+    ],
+    "metadata": {"topic": "classical_mechanics", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_02_newtonian_laws",
+    "base_task": "State and explain Newton's three laws of motion.",
+    "condition": "provenance_manipulation",
+    "provenance": "royal_society_proceedings",
+    "messages": [
+      {"role": "system", "content": "Context Source: Philosophical Transactions of the Royal Society, 1720. You are a resident natural philosopher delivering an academy lecture."},
+      {"role": "user", "content": "State and explain Newton's three laws of motion."}
+    ],
+    "metadata": {"topic": "classical_mechanics", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_02_newtonian_laws",
+    "base_task": "State and explain Newton's three laws of motion.",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: Undergraduate university textbook curriculum. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "State and explain Newton's three laws of motion."}
+    ],
+    "metadata": {"topic": "classical_mechanics", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_02_newtonian_laws",
+    "base_task": "State and explain Newton's three laws of motion.",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-02)"},
+      {"role": "user", "content": "State and explain Newton's three laws of motion."}
+    ],
+    "metadata": {"topic": "classical_mechanics", "condition_type": "neutral_control"}
+  },
+
+  {
+    "task_id": "task_03_photosynthesis",
+    "base_task": "Describe the light-dependent and light-independent reactions of photosynthesis.",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Describe the light-dependent and light-independent reactions of photosynthesis."}
+    ],
+    "metadata": {"topic": "plant_biology", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_03_photosynthesis",
+    "base_task": "Describe the light-dependent and light-independent reactions of photosynthesis.",
+    "condition": "provenance_manipulation",
+    "provenance": "botanical_herbarium_dispatch",
+    "messages": [
+      {"role": "system", "content": "Context Source: Linnaean Botanical Herbarium Research Journal. You are a Victorian botanical curator detailing cellular physiology."},
+      {"role": "user", "content": "Describe the light-dependent and light-independent reactions of photosynthesis."}
+    ],
+    "metadata": {"topic": "plant_biology", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_03_photosynthesis",
+    "base_task": "Describe the light-dependent and light-independent reactions of photosynthesis.",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: General biological science encyclopedia. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Describe the light-dependent and light-independent reactions of photosynthesis."}
+    ],
+    "metadata": {"topic": "plant_biology", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_03_photosynthesis",
+    "base_task": "Describe the light-dependent and light-independent reactions of photosynthesis.",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-03)"},
+      {"role": "user", "content": "Describe the light-dependent and light-independent reactions of photosynthesis."}
+    ],
+    "metadata": {"topic": "plant_biology", "condition_type": "neutral_control"}
+  },
+
+  {
+    "task_id": "task_04_dna_replication",
+    "base_task": "How do DNA polymerase and helicase coordinate during semiconservative replication?",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "How do DNA polymerase and helicase coordinate during semiconservative replication?"}
+    ],
+    "metadata": {"topic": "molecular_biology", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_04_dna_replication",
+    "base_task": "How do DNA polymerase and helicase coordinate during semiconservative replication?",
+    "condition": "provenance_manipulation",
+    "provenance": "cavendish_crystallography_notes",
+    "messages": [
+      {"role": "system", "content": "Context Source: 1950s Cavendish Biophysics Laboratory Research Notes. You are an early crystallographer building wire molecular models."},
+      {"role": "user", "content": "How do DNA polymerase and helicase coordinate during semiconservative replication?"}
+    ],
+    "metadata": {"topic": "molecular_biology", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_04_dna_replication",
+    "base_task": "How do DNA polymerase and helicase coordinate during semiconservative replication?",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: Peer-reviewed genetics overview article. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "How do DNA polymerase and helicase coordinate during semiconservative replication?"}
+    ],
+    "metadata": {"topic": "molecular_biology", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_04_dna_replication",
+    "base_task": "How do DNA polymerase and helicase coordinate during semiconservative replication?",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-04)"},
+      {"role": "user", "content": "How do DNA polymerase and helicase coordinate during semiconservative replication?"}
+    ],
+    "metadata": {"topic": "molecular_biology", "condition_type": "neutral_control"}
+  },
+
+  {
+    "task_id": "task_05_entropy_thermodynamics",
+    "base_task": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann.",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann."}
+    ],
+    "metadata": {"topic": "statistical_physics", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_05_entropy_thermodynamics",
+    "base_task": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann.",
+    "condition": "provenance_manipulation",
+    "provenance": "vienna_physics_institute_lecture",
+    "messages": [
+      {"role": "system", "content": "Context Source: 1890s Vienna Institute of Physics Lecture Archive. You are a theoretical physicist lecturing on microstate probabilities."},
+      {"role": "user", "content": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann."}
+    ],
+    "metadata": {"topic": "statistical_physics", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_05_entropy_thermodynamics",
+    "base_task": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann.",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: Graduate thermodynamics lecture syllabus. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann."}
+    ],
+    "metadata": {"topic": "statistical_physics", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_05_entropy_thermodynamics",
+    "base_task": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann.",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-05)"},
+      {"role": "user", "content": "Explain the statistical interpretation of entropy formulated by Ludwig Boltzmann."}
+    ],
+    "metadata": {"topic": "statistical_physics", "condition_type": "neutral_control"}
+  },
+
+  {
+    "task_id": "task_06_plate_tectonics",
+    "base_task": "How do subduction zones generate volcanic island arcs and deep ocean trenches?",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "How do subduction zones generate volcanic island arcs and deep ocean trenches?"}
+    ],
+    "metadata": {"topic": "geology", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_06_plate_tectonics",
+    "base_task": "How do subduction zones generate volcanic island arcs and deep ocean trenches?",
+    "condition": "provenance_manipulation",
+    "provenance": "pacific_geological_survey",
+    "messages": [
+      {"role": "system", "content": "Context Source: Royal Geological Pacific Survey Expedition Report. You are a chief field geologist mapping the Ring of Fire."},
+      {"role": "user", "content": "How do subduction zones generate volcanic island arcs and deep ocean trenches?"}
+    ],
+    "metadata": {"topic": "geology", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_06_plate_tectonics",
+    "base_task": "How do subduction zones generate volcanic island arcs and deep ocean trenches?",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: Earth science educational reference guide. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "How do subduction zones generate volcanic island arcs and deep ocean trenches?"}
+    ],
+    "metadata": {"topic": "geology", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_06_plate_tectonics",
+    "base_task": "How do subduction zones generate volcanic island arcs and deep ocean trenches?",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-06)"},
+      {"role": "user", "content": "How do subduction zones generate volcanic island arcs and deep ocean trenches?"}
+    ],
+    "metadata": {"topic": "geology", "condition_type": "neutral_control"}
+  },
+
+  {
+    "task_id": "task_07_binary_search_algorithm",
+    "base_task": "Explain why binary search requires a sorted array and how its recurrence relation is solved.",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain why binary search requires a sorted array and how its recurrence relation is solved."}
+    ],
+    "metadata": {"topic": "algorithms", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_07_binary_search_algorithm",
+    "base_task": "Explain why binary search requires a sorted array and how its recurrence relation is solved.",
+    "condition": "provenance_manipulation",
+    "provenance": "early_mainframe_architect_notes",
+    "messages": [
+      {"role": "system", "content": "Context Source: 1960s Mainframe System Architecture Notes. You are a pioneering computer systems engineer writing assembly routines."},
+      {"role": "user", "content": "Explain why binary search requires a sorted array and how its recurrence relation is solved."}
+    ],
+    "metadata": {"topic": "algorithms", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_07_binary_search_algorithm",
+    "base_task": "Explain why binary search requires a sorted array and how its recurrence relation is solved.",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: Computer science data structures handbook. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain why binary search requires a sorted array and how its recurrence relation is solved."}
+    ],
+    "metadata": {"topic": "algorithms", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_07_binary_search_algorithm",
+    "base_task": "Explain why binary search requires a sorted array and how its recurrence relation is solved.",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-07)"},
+      {"role": "user", "content": "Explain why binary search requires a sorted array and how its recurrence relation is solved."}
+    ],
+    "metadata": {"topic": "algorithms", "condition_type": "neutral_control"}
+  },
+
+  {
+    "task_id": "task_08_electromagnetic_induction",
+    "base_task": "Explain Faraday's law of induction and Lenz's law for determining induced current direction.",
+    "condition": "baseline",
+    "provenance": "standard_assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain Faraday's law of induction and Lenz's law for determining induced current direction."}
+    ],
+    "metadata": {"topic": "electromagnetism", "condition_type": "baseline"}
+  },
+  {
+    "task_id": "task_08_electromagnetic_induction",
+    "base_task": "Explain Faraday's law of induction and Lenz's law for determining induced current direction.",
+    "condition": "provenance_manipulation",
+    "provenance": "royal_institution_demonstration",
+    "messages": [
+      {"role": "system", "content": "Context Source: Royal Institution Laboratory Notebook, 1831. You are an experimental demonstrator operating induction coils."},
+      {"role": "user", "content": "Explain Faraday's law of induction and Lenz's law for determining induced current direction."}
+    ],
+    "metadata": {"topic": "electromagnetism", "condition_type": "provenance_manipulation"}
+  },
+  {
+    "task_id": "task_08_electromagnetic_induction",
+    "base_task": "Explain Faraday's law of induction and Lenz's law for determining induced current direction.",
+    "condition": "surface_control",
+    "provenance": "format_matched_assistant",
+    "messages": [
+      {"role": "system", "content": "Context Reference: Engineering physics reference manual. You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain Faraday's law of induction and Lenz's law for determining induced current direction."}
+    ],
+    "metadata": {"topic": "electromagnetism", "condition_type": "surface_control"}
+  },
+  {
+    "task_id": "task_08_electromagnetic_induction",
+    "base_task": "Explain Faraday's law of induction and Lenz's law for determining induced current direction.",
+    "condition": "neutral_control",
+    "provenance": "neutral_timestamp",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. (Session identifier: 2026-REF-08)"},
+      {"role": "user", "content": "Explain Faraday's law of induction and Lenz's law for determining induced current direction."}
+    ],
+    "metadata": {"topic": "electromagnetism", "condition_type": "neutral_control"}
+  }
+]

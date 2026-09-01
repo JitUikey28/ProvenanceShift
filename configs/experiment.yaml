@@ -1,0 +1,44 @@
+# =============================================================================
+# Experiment Configuration — ProvenanceShift
+# =============================================================================
+#
+# This file defines the metadata and parameters for an experiment run.
+# Each experiment should have its own config file or override section.
+#
+# IMPORTANT: Every field listed here is logged alongside results so that
+# any experiment can be exactly reproduced.
+# =============================================================================
+
+# --- Experiment identity ---
+experiment_id: null          # Required. Unique identifier (e.g. "exp_001_baseline").
+experiment_name: null        # Required. Human-readable name.
+description: ""              # Free-text description of what this run tests.
+
+# --- Model reference ---
+# Can override configs/model.yaml or point to a separate model config.
+model_config: "configs/model.yaml"
+
+# --- Reproducibility ---
+seed: 42                     # Random seed for all RNGs.
+
+# --- Generation overrides (optional) ---
+# If set, these override the defaults in model.yaml for this experiment.
+# temperature: 0.7
+# top_p: 0.9
+# max_new_tokens: 512
+
+# --- Prompt set ---
+# Path to the prompt set file or directory used in this experiment.
+prompt_set: null
+
+# --- Experimental condition ---
+# Label for the experimental condition (e.g. "baseline", "provenance_system",
+# "provenance_user"). Used for grouping and comparison.
+condition: null
+
+# --- Output ---
+# Where to write raw results for this experiment.
+output_dir: "results/raw"
+
+# --- Notes ---
+notes: ""

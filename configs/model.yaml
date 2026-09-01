@@ -1,0 +1,56 @@
+# =============================================================================
+# Model Configuration — ProvenanceShift
+# =============================================================================
+#
+# This file specifies the model to load and its inference parameters.
+# Every field here is recorded alongside experiment results for reproducibility.
+#
+# IMPORTANT: Do not hard-code model choices into Python source files.
+# All experiments should reference this configuration (or an override).
+# =============================================================================
+
+# --- Model identity ---
+# Use a Hugging Face model identifier (e.g. "microsoft/Phi-2").
+# Development model: Phi-2 (2.7B params, MIT license, fits RTX 3050 at fp16).
+model_name: "microsoft/Phi-2"
+
+# Specific model revision (git commit hash or tag). null = latest.
+revision: null
+
+# Whether to pass trust_remote_code=True to from_pretrained().
+# Phi-2 requires this. Only enable for models that genuinely need it.
+trust_remote_code: true
+
+# --- Hardware ---
+# "auto" → CUDA if available, else CPU.  Or specify "cuda", "cpu".
+device: "auto"
+
+# PyTorch dtype: "float32", "float16", "bfloat16", "auto".
+# "auto" → float16 on CUDA, float32 on CPU.  float16 is recommended for RTX 3050.
+dtype: "float16"
+
+# If true, fall back to CPU when CUDA is requested but unavailable.
+# If false, raise an error when CUDA is unavailable.
+allow_cpu_fallback: true
+
+# --- Quantization (optional) ---
+# Requires bitsandbytes + accelerate.  Set to false if not needed.
+load_in_4bit: false
+load_in_8bit: false
+
+# Maximum GPU memory to allocate (e.g. "3500MiB"). null = no limit.
+max_memory: null
+
+# --- Reproducibility ---
+seed: 42
+
+# --- Generation defaults ---
+# These are defaults; individual experiments can override them.
+# temperature=0.0 + do_sample=false → deterministic greedy decoding.
+generation:
+  max_new_tokens: 256
+  temperature: 0.0
+  top_p: 1.0
+  top_k: 50
+  do_sample: false
+  repetition_penalty: 1.0

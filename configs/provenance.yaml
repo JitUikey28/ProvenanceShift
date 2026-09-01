@@ -1,0 +1,37 @@
+# =============================================================================
+# Controlled Provenance Experiment Configuration — ProvenanceShift
+# =============================================================================
+#
+# Parameters for Phase 6 controlled provenance / contextual role investigation.
+# =============================================================================
+
+# Path to matched prompt dataset
+prompt_file: "data/prompts/provenance_pilot.json"
+
+# Conditions to evaluate against baseline
+baseline_condition: "baseline"
+target_conditions:
+  - "provenance_manipulation"
+  - "surface_control"
+  - "neutral_control"
+
+# Layer reference:
+# - "validation_selected": load the best layer from Phase 5 validation report
+# - or specify integer layer index (e.g. 16)
+layer_reference: "validation_selected"
+
+# Multiple comparisons correction method: "fdr_bh", "holm", "bonferroni"
+multiple_comparisons_method: "fdr_bh"
+
+# Paired bootstrap settings
+n_bootstrap: 1000
+confidence_level: 0.95
+
+# Generation settings for behavioral responses
+generation:
+  max_new_tokens: 48
+  temperature: 0.0
+  do_sample: false
+
+# Random seed
+seed: 42

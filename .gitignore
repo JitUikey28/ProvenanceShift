@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+results/raw/*/
+results/processed/*/
+results/figures/*/
+results/tables/*/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/raw/.gitkeep
+!results/processed/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# Model cache (do not commit downloaded models)
+models_cache/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env
+*.key

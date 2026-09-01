@@ -1,0 +1,18 @@
+# =============================================================================
+# Persona Representation Matched-Pair Decomposition Config — ProvenanceShift
+# =============================================================================
+# Phase 5.75: Matched-pair decomposition of persona vs surface effects
+# =============================================================================
+
+# Target layer (Layer 2 locked from Phase 5)
+target_layer: 2
+
+# Number of bootstrap resamples for paired difference confidence intervals
+n_bootstrap: 1000
+confidence_level: 0.95
+
+# Direction to use: "expanded" (D_expanded from ACT-EXPANDED-001) or "original"
+direction_source: "expanded"
+
+# Random seed for reproducibility
+seed: 42

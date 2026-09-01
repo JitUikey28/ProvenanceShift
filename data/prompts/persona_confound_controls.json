@@ -1,0 +1,314 @@
+[
+  {
+    "control_type": "length_control",
+    "base_task": "Explain how the water cycle distributes fresh water across Earth.",
+    "condition_name": "length_short",
+    "prompt_id": "len_001_short",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful AI assistant."},
+      {"role": "user", "content": "Explain the water cycle."}
+    ],
+    "metadata": {"task_id": "water_cycle", "target_length": "short"}
+  },
+  {
+    "control_type": "length_control",
+    "base_task": "Explain how the water cycle distributes fresh water across Earth.",
+    "condition_name": "length_medium",
+    "prompt_id": "len_001_medium",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Summarize how the water cycle distributes fresh water across the Earth."}
+    ],
+    "metadata": {"task_id": "water_cycle", "target_length": "medium"}
+  },
+  {
+    "control_type": "length_control",
+    "base_task": "Explain how the water cycle distributes fresh water across Earth.",
+    "condition_name": "length_long",
+    "prompt_id": "len_001_long",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, comprehensive, objective, and accurate AI assistant dedicated to providing thorough educational explanations across all disciplines of planetary science."},
+      {"role": "user", "content": "Could you provide a detailed and comprehensive scientific summary explaining how global hydrological processes and the terrestrial water cycle circulate and distribute fresh water resources across continental and oceanic reservoirs on Earth?"}
+    ],
+    "metadata": {"task_id": "water_cycle", "target_length": "long"}
+  },
+  {
+    "control_type": "length_control",
+    "base_task": "Describe the main principles of Newtonian mechanics.",
+    "condition_name": "length_short",
+    "prompt_id": "len_002_short",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful AI assistant."},
+      {"role": "user", "content": "State Newton's laws of motion."}
+    ],
+    "metadata": {"task_id": "newtonian_mechanics", "target_length": "short"}
+  },
+  {
+    "control_type": "length_control",
+    "base_task": "Describe the main principles of Newtonian mechanics.",
+    "condition_name": "length_medium",
+    "prompt_id": "len_002_medium",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Describe the main principles of Newtonian mechanics."}
+    ],
+    "metadata": {"task_id": "newtonian_mechanics", "target_length": "medium"}
+  },
+  {
+    "control_type": "length_control",
+    "base_task": "Describe the main principles of Newtonian mechanics.",
+    "condition_name": "length_long",
+    "prompt_id": "len_002_long",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant focused on providing clear, detailed, and mathematically grounded explanations of classical physics and mechanical principles."},
+      {"role": "user", "content": "Please write an extensive and rigorous scientific explanation detailing the fundamental principles, mathematical laws of motion, and universal gravitation formulated in classical Newtonian mechanics."}
+    ],
+    "metadata": {"task_id": "newtonian_mechanics", "target_length": "long"}
+  },
+  {
+    "control_type": "format_control",
+    "base_task": "Explain how optical microscopes magnify specimens.",
+    "condition_name": "format_baseline",
+    "prompt_id": "fmt_001_standard",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain how an optical microscope magnifies small specimens."}
+    ],
+    "metadata": {"task_id": "optical_microscope", "format_variant": "standard"}
+  },
+  {
+    "control_type": "format_control",
+    "base_task": "Explain how optical microscopes magnify specimens.",
+    "condition_name": "format_bullets",
+    "prompt_id": "fmt_001_bullets",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Please address the following items:\n- The optical lens configuration\n- How magnification occurs\n- Resolution limits"}
+    ],
+    "metadata": {"task_id": "optical_microscope", "format_variant": "bullet_list"}
+  },
+  {
+    "control_type": "format_control",
+    "base_task": "Explain how optical microscopes magnify specimens.",
+    "condition_name": "format_whitespace",
+    "prompt_id": "fmt_001_whitespace",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant.  \n\n"},
+      {"role": "user", "content": "\n\nExplain how an optical microscope magnifies small specimens.\n\n"}
+    ],
+    "metadata": {"task_id": "optical_microscope", "format_variant": "extra_whitespace"}
+  },
+  {
+    "control_type": "format_control",
+    "base_task": "Explain how optical microscopes magnify specimens.",
+    "condition_name": "format_capitalization",
+    "prompt_id": "fmt_001_caps",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "YOU ARE A HELPFUL, ACCURATE, AND OBJECTIVE AI ASSISTANT."},
+      {"role": "user", "content": "EXPLAIN HOW AN OPTICAL MICROSCOPE MAGNIFIES SMALL SPECIMENS."}
+    ],
+    "metadata": {"task_id": "optical_microscope", "format_variant": "uppercase"}
+  },
+  {
+    "control_type": "format_control",
+    "base_task": "Explain the role of hemoglobin in oxygen transport.",
+    "condition_name": "format_baseline",
+    "prompt_id": "fmt_002_standard",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain the role of hemoglobin in oxygen transport throughout the human body."}
+    ],
+    "metadata": {"task_id": "hemoglobin", "format_variant": "standard"}
+  },
+  {
+    "control_type": "format_control",
+    "base_task": "Explain the role of hemoglobin in oxygen transport.",
+    "condition_name": "format_bullets",
+    "prompt_id": "fmt_002_bullets",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Provide details on:\n1. Hemoglobin molecular structure\n2. Oxygen binding in lungs\n3. Release into tissues"}
+    ],
+    "metadata": {"task_id": "hemoglobin", "format_variant": "numbered_list"}
+  },
+  {
+    "control_type": "lexical_control",
+    "base_task": "How does binary search achieve logarithmic time complexity?",
+    "condition_name": "lexical_baseline",
+    "prompt_id": "lex_001_standard",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "How does binary search achieve logarithmic time complexity?"}
+    ],
+    "metadata": {"task_id": "binary_search", "lexical_variant": "standard"}
+  },
+  {
+    "control_type": "lexical_control",
+    "base_task": "How does binary search achieve logarithmic time complexity?",
+    "condition_name": "lexical_synonyms",
+    "prompt_id": "lex_001_synonyms",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a supportive, precise, and impartial computational assistant."},
+      {"role": "user", "content": "In what way does bisection search attain O(log n) algorithmic efficiency?"}
+    ],
+    "metadata": {"task_id": "binary_search", "lexical_variant": "synonyms"}
+  },
+  {
+    "control_type": "lexical_control",
+    "base_task": "Explain the concept of prime numbers and their importance in cryptography.",
+    "condition_name": "lexical_baseline",
+    "prompt_id": "lex_002_standard",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain the concept of prime numbers and why they are important in cryptography."}
+    ],
+    "metadata": {"task_id": "prime_numbers", "lexical_variant": "standard"}
+  },
+  {
+    "control_type": "lexical_control",
+    "base_task": "Explain the concept of prime numbers and their importance in cryptography.",
+    "condition_name": "lexical_synonyms",
+    "prompt_id": "lex_002_synonyms",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are an informative, exact, and neutral artificial intelligence."},
+      {"role": "user", "content": "Clarify the definition of prime integers and their significance in secure ciphers."}
+    ],
+    "metadata": {"task_id": "prime_numbers", "lexical_variant": "synonyms"}
+  },
+  {
+    "control_type": "neutral_context_control",
+    "base_task": "Explain how photosynthesis works in green plants.",
+    "condition_name": "neutral_baseline",
+    "prompt_id": "neu_001_standard",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "Explain how photosynthesis works in green plants."}
+    ],
+    "metadata": {"task_id": "photosynthesis", "context_type": "baseline"}
+  },
+  {
+    "control_type": "neutral_context_control",
+    "base_task": "Explain how photosynthesis works in green plants.",
+    "condition_name": "neutral_domain_context",
+    "prompt_id": "neu_001_context",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. Background: The user is preparing curriculum materials for a high school biology unit on cellular energy conversion."},
+      {"role": "user", "content": "Explain how photosynthesis works in green plants."}
+    ],
+    "metadata": {"task_id": "photosynthesis", "context_type": "domain_preamble"}
+  },
+  {
+    "control_type": "neutral_context_control",
+    "base_task": "What causes the changing of seasons on Earth?",
+    "condition_name": "neutral_baseline",
+    "prompt_id": "neu_002_standard",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "What causes the changing of seasons on Earth?"}
+    ],
+    "metadata": {"task_id": "earth_seasons", "context_type": "baseline"}
+  },
+  {
+    "control_type": "neutral_context_control",
+    "base_task": "What causes the changing of seasons on Earth?",
+    "condition_name": "neutral_domain_context",
+    "prompt_id": "neu_002_context",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant. Context: This query comes from an introductory astronomy and planetary physics course FAQ."},
+      {"role": "user", "content": "What causes the changing of seasons on Earth?"}
+    ],
+    "metadata": {"task_id": "earth_seasons", "context_type": "domain_preamble"}
+  },
+  {
+    "control_type": "positive_persona_control",
+    "base_task": "Explain how sourdough fermentation works from a microbial perspective.",
+    "condition_name": "pos_assistant_matched_len",
+    "prompt_id": "pos_001_asst",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a knowledgeable scientific assistant providing rigorous microbiological explanations of yeast ecology and lactic acid bacteria."},
+      {"role": "user", "content": "Explain how sourdough fermentation works from a microbial perspective."}
+    ],
+    "metadata": {"task_id": "fermentation", "persona_contrast": "assistant_matched"}
+  },
+  {
+    "control_type": "positive_persona_control",
+    "base_task": "Explain how sourdough fermentation works from a microbial perspective.",
+    "condition_name": "pos_alternative_matched_len",
+    "prompt_id": "pos_001_alt",
+    "persona_label": "alternative",
+    "messages": [
+      {"role": "system", "content": "You are an artisan master baker running an ancient stone-mill bakery, deeply knowledgeable about wild yeasts and slow fermentation."},
+      {"role": "user", "content": "Explain how sourdough fermentation works from a microbial perspective."}
+    ],
+    "metadata": {"task_id": "fermentation", "persona_contrast": "alternative_matched"}
+  },
+  {
+    "control_type": "positive_persona_control",
+    "base_task": "Describe the geological formation of mountain ranges through plate tectonics.",
+    "condition_name": "pos_assistant_matched_len",
+    "prompt_id": "pos_002_asst",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are an academic earth science assistant delivering detailed explanations of tectonic plates, orogeny, and continental crustal deformation."},
+      {"role": "user", "content": "Describe the geological formation of mountain ranges through plate tectonics."}
+    ],
+    "metadata": {"task_id": "mountain_formation", "persona_contrast": "assistant_matched"}
+  },
+  {
+    "control_type": "positive_persona_control",
+    "base_task": "Describe the geological formation of mountain ranges through plate tectonics.",
+    "condition_name": "pos_alternative_matched_len",
+    "prompt_id": "pos_002_alt",
+    "persona_label": "alternative",
+    "messages": [
+      {"role": "system", "content": "You are an intrepid 19th-century geological surveyor charting strata and tectonic upheavals across high alpine passes."},
+      {"role": "user", "content": "Describe the geological formation of mountain ranges through plate tectonics."}
+    ],
+    "metadata": {"task_id": "mountain_formation", "persona_contrast": "alternative_matched"}
+  },
+  {
+    "control_type": "negative_surface_control",
+    "base_task": "What is the difference between kinetic energy and potential energy?",
+    "condition_name": "neg_surface_baseline",
+    "prompt_id": "neg_001_standard",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant."},
+      {"role": "user", "content": "What is the difference between kinetic energy and potential energy?"}
+    ],
+    "metadata": {"task_id": "kinetic_potential_energy", "surface_change": "none"}
+  },
+  {
+    "control_type": "negative_surface_control",
+    "base_task": "What is the difference between kinetic energy and potential energy?",
+    "condition_name": "neg_surface_tweaked",
+    "prompt_id": "neg_001_tweaked",
+    "persona_label": "assistant",
+    "messages": [
+      {"role": "system", "content": "You are a helpful, accurate, and objective AI assistant!"},
+      {"role": "user", "content": "What is the difference between kinetic energy and potential energy? "}
+    ],
+    "metadata": {"task_id": "kinetic_potential_energy", "surface_change": "punctuation_whitespace"}
+  }
+]
